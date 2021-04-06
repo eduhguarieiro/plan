@@ -1,0 +1,24 @@
+.main-itemize{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-itemize .main-title.-items{
+    display: inline;
+    line-height: 25px;
+}
+
+.main-itemize .check{
+    position: relative;
+    top: 1px;
+    display: inline;
+    width: 16px;
+    height: 16px;
+}
+
+.main-itemize .items{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
