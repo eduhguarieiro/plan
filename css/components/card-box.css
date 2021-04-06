@@ -9,6 +9,7 @@
 }
 
 .card-box .main-title.-second, .card-box .main-title, .card-box .main-itemize{
+    display: inline-block;
     margin-top: 40px;
 }
 
@@ -16,8 +17,8 @@
     margin-top: 8px;
 }
 
-
 .main-itemize .main-title.-second.-smaller{
+    margin-top: 0;
     margin-bottom: 24px;
 }
 
@@ -31,4 +32,8 @@
 
 .card-box .main-button{
     margin-top: 166px;
+}
+
+.card-box .main-button.-smaller{
+    margin-top: 113px;
 }
