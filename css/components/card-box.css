@@ -1,7 +1,11 @@
 .card-box{
+    box-sizing: border-box;
     display: inline-flex;
+    background-color: #E5E5E5;
     width: 373px;
-    height: 624px;
+    max-height: 624px;
+    margin-bottom: 69px;
+    border-radius: 16px;
 }
 
 .card-box .align{
@@ -32,8 +36,14 @@
 
 .card-box .main-button{
     margin-top: 166px;
+    margin-bottom: 40px;
 }
 
 .card-box .main-button.-smaller{
     margin-top: 113px;
+    margin-bottom: 40px;
+}
+
+.card-box.-gray{
+    background-color: #C6C3CA;
 }
