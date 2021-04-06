@@ -3,3 +3,7 @@
     font-weight: 500;
     color: #1E162F;
 }
+
+.section-title.-unactive{
+    font-weight: 300;
+}
