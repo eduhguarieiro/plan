@@ -52,8 +52,9 @@
 .card-box:hover{
     background-color: #1C162E;
     transform: scale(1.1);
+    color: #fff;
 }
 
-.card-box .main-title:hover, .card-box .main-title.-second:hover{
+.card-box .main-title.-white, .card-box .main-title.-second.-white{
     color: #fff;
 }
