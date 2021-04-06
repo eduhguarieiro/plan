@@ -1,8 +1,6 @@
 .main-itemize{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-itemize .main-title.-items{
