@@ -1,5 +1,5 @@
 .card-box{
-    display: flex;
+    display: inline-flex;
     width: 373px;
     height: 624px;
 }
