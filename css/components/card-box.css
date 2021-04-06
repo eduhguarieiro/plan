@@ -1,0 +1,29 @@
+.card-box{
+    display: flex;
+    width: 373px;
+    height: 624px;
+}
+
+.card-box .align{
+    padding-left: 40px;
+}
+
+.card-box .main-title.-second, .card-box .main-title, .card-box .main-itemize{
+    margin-top: 40px;
+}
+
+.card-box .main-subtitle{
+    margin-top: 8px;
+}
+
+.card-box .items{
+    margin-bottom: 20px;;
+}
+
+.card-box .items:last-of-type{
+    margin-bottom: 0;
+}
+
+.card-box .main-button{
+    margin-top: 166px;
+}
