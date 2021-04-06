@@ -1,0 +1,23 @@
+.section-switch{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.section-switch .section-title{
+    padding-right: 24px;
+}
+
+.section-switch .main-switch{
+    margin-right: 24px;
+}
+
+.section-switch .section-title:last-of-type{
+    padding-right: 8px;
+}
+
+.section-switch .discount-message{
+    line-height: 18px;
+    padding-bottom: 1px;
+}
