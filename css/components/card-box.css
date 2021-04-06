@@ -6,6 +6,7 @@
     max-height: 624px;
     margin-bottom: 69px;
     border-radius: 16px;
+    transition: transform 400ms ease-in-out;
 }
 
 .card-box .align{
@@ -21,7 +22,7 @@
     margin-top: 8px;
 }
 
-.main-itemize .main-title.-second.-smaller{
+.card-box .main-title.-second.-smaller{
     margin-top: 0;
     margin-bottom: 24px;
 }
@@ -46,4 +47,13 @@
 
 .card-box.-gray{
     background-color: #C6C3CA;
+}
+
+.card-box:hover{
+    background-color: #1C162E;
+    transform: scale(1.1);
+}
+
+.card-box .main-title:hover, .card-box .main-title.-second:hover{
+    color: #fff;
 }
