@@ -30,7 +30,7 @@
     <section class="section-switch">
         <h2 class="section-title">Mensal</h2>
         <label class="main-switch">
-            <input type="checkbox">
+            <input id="switch" type="checkbox" onClick="verif()">
             <span class="slider round"></span>
         </label>
         <h2 class="section-title -unactive">Anual</h2>
@@ -65,7 +65,7 @@
             <div class="align">
                 <h2 class="main-title -second">Equipe</h2>
                 <h3 class="main-subtitle">Para equipes de até 4 membros</h3>
-                <h1 class="main-title">R$ 55,99</h1><h2 class="main-subtitle -parcel">/mês</h2>
+                <h1 id="price1" class="main-title">R$ 55,99</h1><h2 id="parcel1" class="main-subtitle -parcel">/mês</h2>
                 <div class="main-itemize">
                     <h2 class="main-title -second -smaller">Tudo do plano Grátis, mais</h2>
                     <div class="items">
@@ -85,11 +85,11 @@
             </div>
         </section>
 
-        <section id="test" class="card-box -three">
+        <section class="card-box -three">
             <div class="align">
                 <h2 class="main-title -second">Negócios</h2>
                 <h3 class="main-subtitle">Para toda a empresa</h3>
-                <h1 class="main-title">R$ 179,10</h1><h2 class="main-subtitle -parcel">/mês</h2>
+                <h1 id="price2" class="main-title">R$ 179,10</h1><h2 id="parcel2" class="main-subtitle -parcel">/mês</h2>
                 <div class="main-itemize">
                     <h2 class="main-title -second -smaller">Tudo do plano Equipe, mais</h2>
                     <div class="items">
@@ -111,5 +111,6 @@
     </section>
 
     <script src="js/components/card-box.js"></script>
+    <script src="js/components/section-switch.js"></script>
 </body>
 </html>
